@@ -1,6 +1,7 @@
 module.exports = {
   content: ["./public/**/*.html"],
   theme: {
+
     container: {
       center: true,
       padding: {
@@ -13,7 +14,11 @@ module.exports = {
       margin: 'auto'
 
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Vazir"]
+      }
+    },
   },
   plugins: [],
 }
