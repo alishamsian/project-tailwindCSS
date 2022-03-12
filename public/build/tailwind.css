@@ -799,6 +799,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-center{
   align-items: center;
 }
@@ -821,6 +825,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-x-4{
@@ -1050,6 +1058,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .text-slate-800{
